@@ -5,5 +5,5 @@ span.classList.add('text-style');
 input.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
-   span.style.fontSize = `"${event.currentTarget.value}px"`;
+   span.style.fontSize = `${event.currentTarget.value}px`;
 }
